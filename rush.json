@@ -84,9 +84,8 @@
    * To remove these restrictions, you could set projectFolderMinDepth=1
    * and set projectFolderMaxDepth to a large number.
    */
-   "projectFolderMinDepth": 3,
-   "projectFolderMaxDepth": 5,
-
+  "projectFolderMinDepth": 3,
+  "projectFolderMaxDepth": 5,
   /**
    * Today the npmjs.com registry enforces fairly strict naming rules for packages, but in the early
    * days there was no standard and hardly any enforcement.  A few large legacy projects are still using
@@ -211,8 +210,7 @@
      * The default branch name. This tells "rush change" which remote branch to compare against.
      * The default value is "main"
      */
-     "defaultBranch": "main",
-
+    "defaultBranch": "main",
     /**
      * The default remote. This tells "rush change" which remote to compare against if the remote URL is
      * not set or if a remote matching the provided remote URL is not found.
@@ -390,5 +388,9 @@
     //   "reviewCategory": "tools",
     //   "tags": [ "tools" ]
     // }
+    {
+      "packageName": "my-toolchain",
+      "projectFolder": "examples/tools/my-toolchain"
+    }
   ]
 }
