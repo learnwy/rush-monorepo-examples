@@ -389,8 +389,16 @@
     //   "tags": [ "tools" ]
     // }
     {
+      "packageName": "my-app",
+      "projectFolder": "examples/apps/my-app"
+    },
+    {
+      "packageName": "my-controls",
+      "projectFolder": "examples/libraries/my-controls"
+    },
+    {
       "packageName": "my-toolchain",
       "projectFolder": "examples/tools/my-toolchain"
-    }
+    },
   ]
 }
